@@ -39,3 +39,7 @@ if __name__ == '__main__':
     print("\n--------------Ordonner la liste-------------\n")
     chaine.sort()
     print(chaine)
+    # I.9. Affichage de la liste en sens inverse
+    print("\n----------------I.9. Affichage de la liste en sens inverse-----------------------\n")
+    chaine.reverse()
+    print(chaine)
