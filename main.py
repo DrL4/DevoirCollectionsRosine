@@ -47,3 +47,7 @@ if __name__ == '__main__':
     print("\n-------------I.10. Vider la liste--------------------\n")
     chaine.clear()
     print(chaine)
+    # I.11. Suppression de la liste
+    print("\n------------------I.11. Suppression de la liste-------------\n")
+    del chaine
+    print(chaine)
