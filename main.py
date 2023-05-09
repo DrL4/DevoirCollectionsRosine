@@ -43,3 +43,7 @@ if __name__ == '__main__':
     print("\n----------------I.9. Affichage de la liste en sens inverse-----------------------\n")
     chaine.reverse()
     print(chaine)
+    # I.10. Vider la liste
+    print("\n-------------I.10. Vider la liste--------------------\n")
+    chaine.clear()
+    print(chaine)
