@@ -50,4 +50,8 @@ if __name__ == '__main__':
     # I.11. Suppression de la liste
     print("\n------------------I.11. Suppression de la liste-------------\n")
     del chaine
-    print(chaine)
+    #print(chaine)
+    
+    # II. Creation d'une tuple avec 10 elements de type entier
+    print("\n*********************II. Creation d'une tuple avec 10 elements de type entier*************\n")
+    ent = (14, 4, 100, 0, 45, 89, 67, 28, 6, 345)
