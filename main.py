@@ -8,15 +8,18 @@ if __name__ == '__main__':
     print(chaine)
     # I.2. Changement du contenu de l'element numéro 5
     print("\n-------------2. Changement du contenu de l'element numero 5-----------------------\n")
-    chaine.insert(5, 'Velo')#insertion du mot au num 5 et non a l'index 
+    chaine[4] = 'Velo'
     print(chaine)
     # I.3. Creation d'une nouvelle liste avec les elements de la liste precedente mais contenant la lettre "a"
     print("\n-----3. Creation d'une nouvelle liste avec les elements de la liste precedente mais contenant la lettre a----\n")
-    n_chaine = []
+    n_chaine = []#creation de la liste qui va accueillir les mots contenant "a"
     #print(type(n_chaine))
     for a in chaine:
       if 'a' in a:
         n_chaine.append(a)
-        
-    print("\nListe de mots contenant a sont:\n",n_chaine)
     
+    print("\nListe de mots contenant a sont:\n",n_chaine)
+    # I.4. Ajouter un element a la fin de la liste
+    print("\n-------------------------------Ajout d'un element a la fin de la liste--------------------\n")
+    chaine.append('Moto')
+    print(chaine)
