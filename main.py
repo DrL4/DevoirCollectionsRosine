@@ -6,4 +6,6 @@ if __name__ == '__main__':
     # I.1. Affichage des éléments de la liste 
     print("----1.Affichage des elements de la liste-------------")
     print(chaine)
+    # I.2. Changement du contenu de l'élément numéro 5
+    chaine.insert(5, 'Vélo')
     
