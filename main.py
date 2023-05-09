@@ -35,3 +35,7 @@ if __name__ == '__main__':
     print("\n-----------------Suppression de l'element a l'index numero 2-----------\n")
     del chaine[2]
     print(chaine)
+    # I.8. Ordonner la liste
+    print("\n--------------Ordonner la liste-------------\n")
+    chaine.sort()
+    print(chaine)
