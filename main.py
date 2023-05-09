@@ -31,3 +31,7 @@ if __name__ == '__main__':
     print("\n-----------------------I.6. Suppression de l'element numero 3-------------------\n")
     del chaine[2]
     print(chaine)
+    # I.7. Suppression de l'element a l'index numero 2
+    print("\n-----------------Suppression de l'element a l'index numero 2-----------\n")
+    del chaine[2]
+    print(chaine)
