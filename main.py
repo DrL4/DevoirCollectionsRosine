@@ -55,3 +55,6 @@ if __name__ == '__main__':
     # II. Creation d'une tuple avec 10 elements de type entier
     print("\n*********************II. Creation d'une tuple avec 10 elements de type entier*************\n")
     ent = (14, 4, 100, 0, 45, 89, 67, 28, 6, 345)
+    # Affichage des elements de la tuple
+    print("\n--------------------------Affichage des elements de la tuple--------------------\n")
+    print(ent)
