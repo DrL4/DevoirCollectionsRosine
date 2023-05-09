@@ -18,8 +18,12 @@ if __name__ == '__main__':
       if 'a' in a:
         n_chaine.append(a)
     
-    print("\nListe de mots contenant a sont:\n",n_chaine)
+    print("Liste de mots contenant a sont:\n",n_chaine)
     # I.4. Ajouter un element a la fin de la liste
     print("\n-------------------------------Ajout d'un element a la fin de la liste--------------------\n")
     chaine.append('Moto')
+    print(chaine)
+    # I.5. Ajout a l'index numero 2
+    print("\n-----------------------Ajout a l'index numero 2-----------------------------------\n")
+    chaine.insert(2, 'Argent')
     print(chaine)
