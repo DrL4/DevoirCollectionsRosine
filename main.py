@@ -24,6 +24,10 @@ if __name__ == '__main__':
     chaine.append('Moto')
     print(chaine)
     # I.5. Ajout a l'index numero 2
-    print("\n-----------------------Ajout a l'index numero 2-----------------------------------\n")
+    print("\n-----------------------I.5. Ajout a l'index numero 2-----------------------------------\n")
     chaine.insert(2, 'Argent')
+    print(chaine)
+    # I.6. Suppression de l'element numero 3
+    print("\n-----------------------I.6. Suppression de l'element numero 3-------------------\n")
+    del chaine[2]
     print(chaine)
