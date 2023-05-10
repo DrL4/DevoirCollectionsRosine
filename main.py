@@ -58,3 +58,10 @@ if __name__ == '__main__':
     # Affichage des elements de la tuple
     print("\n--------------------------Affichage des elements de la tuple--------------------\n")
     print(ent)
+    # II.1. Afficher le nombre de fois que la valeur 3 apparait dans la tuple
+    print("\n-------------------II.1. Afficher le nombre de fois que la valeur 3 apparait dans la tuple-----------------------------\n")
+    for i in ent:
+      if i == 3:
+        print("\n Le nombre d'occurrence de 3 est de: ", i)
+        
+    print("Ce nombre n'existe pas")
