@@ -65,3 +65,6 @@ if __name__ == '__main__':
         print("\n Le nombre d'occurrence de 3 est de: ", i)
         
     print("Ce nombre n'existe pas")
+    # II.2. Affichage du contenu de l'element numero 5
+    print("\n--------------------II.2. Affichage du contenu de l'element numero 5---------------\n")
+    print(ent[4])
