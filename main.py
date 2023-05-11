@@ -145,3 +145,7 @@ if __name__ == '__main__':
     print("\n---------------------------------------IV.7. Ajout d'un nouvel element----------------------\n")
     chaine_dict["oklm"] = "au calme"
     print(chaine_dict)
+    # IV.8. Creation de la copie du dictionnaire
+    print("\n-----------------------------------IV.8. Creation de la copie du dictionnaire-----------------\n")
+    copie_chaine_dict = chaine_dict.copy()
+    print(copie_chaine_dict)
