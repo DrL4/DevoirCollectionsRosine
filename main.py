@@ -68,4 +68,15 @@ if __name__ == '__main__':
     print("\n---------------- II.3. Ordonner la tuple----------------------\n")
     ent = tuple(sorted(ent))
     print(ent)
+    # II.4. Ajout d'un element a la fin de la tuple
+    print("\n------------------------II.4. Ajout d'un element a la fin de la tuple-------------------\n")
+    # Une tuple etant inchangeable on la convertit en une liste 
+    ent_list = list(ent)
+    # Cette fois on peut ajouter un element a la fin car une liste est changeable
+    ent_list.append(143)
+    # Reconversion la liste en tuple
+    ent = tuple(ent_list)
+    print(ent)
+    
+    
     
