@@ -90,7 +90,9 @@ if __name__ == '__main__':
     print(ent)
     
     # III. Creation d'un set de 10 elements de type chaine de caracteres
-    print("\n*********************Creation d'un set de 10 elements de type chaine de caracteres***********\n")
-    chaine_set = {"Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre"}
-    
+    print("\n********************* III. Creation d'un set de 10 elements de type chaine de caracteres***********\n")
+    chaine_set = {"Janvier", "Fevrier", "Mars", "Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre"}
+    # III. 1. Affichage du set
+    print("\n-----------------III. 1. Affichage du set------------------\n")
+    print(chaine_set)
     
