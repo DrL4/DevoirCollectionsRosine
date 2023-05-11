@@ -141,3 +141,7 @@ if __name__ == '__main__':
     # IV.6. Affichage de l'element de la cle numero 5
     print("\n-----------------------------IV.6. Affichage de l'element de la cle numero 5----------------------\n")
     print(chaine_dict["cad"])
+    # IV.7. Ajout d'un nouvel element
+    print("\n---------------------------------------IV.7. Ajout d'un nouvel element----------------------\n")
+    chaine_dict["oklm"] = "au calme"
+    print(chaine_dict)
