@@ -60,11 +60,12 @@ if __name__ == '__main__':
     print(ent)
     # II.1. Afficher le nombre de fois que la valeur 3 apparait dans la tuple
     print("\n-------------------II.1. Afficher le nombre de fois que la valeur 3 apparait dans la tuple-----------------------------\n")
-    for i in ent:
-      if i == 3:
-        print("\n Le nombre d'occurrence de 3 est de: ", i)
-        
-    print("Ce nombre n'existe pas")
+    print("Le nombre d'occurrences de 3 est de: ",ent.count(3))
     # II.2. Affichage du contenu de l'element numero 5
     print("\n--------------------II.2. Affichage du contenu de l'element numero 5---------------\n")
     print(ent[4])
+    # II.3. Ordonner la tuple
+    print("\n---------------- II.3. Ordonner la tuple----------------------\n")
+    ent = tuple(sorted(ent))
+    print(ent)
+    
