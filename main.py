@@ -99,3 +99,7 @@ if __name__ == '__main__':
     print("\n-------------------III.2. Ajout d'un element---------------------\n") 
     chaine_set.add("Novembre")
     print(chaine_set)
+    # III.3. Suppression d'un element
+    print("\n-----------------------III.3. Suppression d'un element----------------------\n")
+    chaine_set.remove("Mai")
+    print(chaine_set)
