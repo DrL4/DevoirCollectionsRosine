@@ -130,3 +130,7 @@ if __name__ == '__main__':
     # IV.3. Affichage des valeurs
     print("\n---------------------------IV.3. Affichage des valeurs---------------------\n")
     print(chaine_dict.values())
+    # IV.4. Affichage des cles et des valeurs sous le format: cle: valeur
+    print("\n---------------------------IV.4. Affichage des cles et des valeurs sous le format: cle: valeur----------------------\n")
+    for k,v in chaine_dict.items():
+       print(f"{k} : {v}")
