@@ -103,3 +103,6 @@ if __name__ == '__main__':
     print("\n-----------------------III.3. Suppression d'un element----------------------\n")
     chaine_set.remove("Mai")
     print(chaine_set)
+    # III.4. Suppression du set
+    print("\n-----------------------III.4. Suppression du set---------------------------\n")
+    del chaine_set
