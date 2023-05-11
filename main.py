@@ -121,3 +121,6 @@ if __name__ == '__main__':
       "rn": "right now",
       "mm": "meme",
     }
+    # IV.1. Affichage du dictionnaire
+    print("\n-----------------IV.1. Affichage du dictionnaire---------------------\n")
+    print(chaine_dict)
