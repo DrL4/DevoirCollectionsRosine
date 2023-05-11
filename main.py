@@ -134,3 +134,8 @@ if __name__ == '__main__':
     print("\n---------------------------IV.4. Affichage des cles et des valeurs sous le format: cle: valeur----------------------\n")
     for k,v in chaine_dict.items():
        print(f"{k} : {v}")
+       
+    # IV.5. Suppression de l'element a la cle numero 2
+    print("\n---------------------------IV.5. Suppression de l'element a la cle numero 2---------------------\n")
+    chaine_dict.pop("f")
+    
