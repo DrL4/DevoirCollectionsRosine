@@ -138,4 +138,6 @@ if __name__ == '__main__':
     # IV.5. Suppression de l'element a la cle numero 2
     print("\n---------------------------IV.5. Suppression de l'element a la cle numero 2---------------------\n")
     chaine_dict.pop("f")
-    
+    # IV.6. Affichage de l'element de la cle numero 5
+    print("\n-----------------------------IV.6. Affichage de l'element de la cle numero 5----------------------\n")
+    print(chaine_dict["cad"])
