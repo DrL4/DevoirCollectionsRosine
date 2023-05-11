@@ -95,4 +95,7 @@ if __name__ == '__main__':
     # III. 1. Affichage du set
     print("\n-----------------III. 1. Affichage du set------------------\n")
     print(chaine_set)
-    
+    # III.2. Ajout d'un element
+    print("\n-------------------III.2. Ajout d'un element---------------------\n") 
+    chaine_set.add("Novembre")
+    print(chaine_set)
