@@ -106,3 +106,18 @@ if __name__ == '__main__':
     # III.4. Suppression du set
     print("\n-----------------------III.4. Suppression du set---------------------------\n")
     del chaine_set
+    
+    # IV. Creation d'un dictionnaire avec 10 elements de type chaine de caracteres
+    print("\n********************************IV. Creation d'un dictionnaire avec 10 elements de type chaine de caracteres*********************\n")
+    chaine_dict = {
+      "v": "vrai",
+      "f": "faux",
+      "rs": "rien a signaler",
+      "hs": "hors service",
+      "cad": "c'est a dire",
+      "bg": "beau gosse",
+      "bcbg": "bon chic bon genre",
+      "bcp": "beaucoup",
+      "rn": "right now",
+      "mm": "meme",
+    }
