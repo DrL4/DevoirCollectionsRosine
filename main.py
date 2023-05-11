@@ -127,3 +127,6 @@ if __name__ == '__main__':
     # IV.2. Affichage des cles
     print("\n---------------------------IV.2. Affichage des cles---------------------\n")
     print(chaine_dict.keys())
+    # IV.3. Affichage des valeurs
+    print("\n---------------------------IV.3. Affichage des valeurs---------------------\n")
+    print(chaine_dict.values())
