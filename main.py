@@ -77,6 +77,13 @@ if __name__ == '__main__':
     # Reconversion la liste en tuple
     ent = tuple(ent_list)
     print(ent)
-    
+    # II.5. Ajout d'un element a l'index au numero 3 de la tuple
+    print("\n------------------------Ajout d'un element a l'index au numero 3 de la tuple------------\n")
+    # Conversion de la tuple en liste et ajout de l'element a l'index num 3
+    ent_nouveau_list = list(ent)
+    ent_nouveau_list.insert(3, 3)
+    # Reconversion de la liste en tuple
+    ent = tuple(ent_nouveau_list)
+    print(ent)
     
     
