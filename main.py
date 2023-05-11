@@ -86,6 +86,11 @@ if __name__ == '__main__':
     ent = tuple(ent_nouveau_list)
     print(ent)
     # II.6. Affichage de la nouvelle tuple
-    print("\n-------------------------Affichage de la nouvelle tuple------------------\n")
+    print("\n-------------------------II.6. Affichage de la nouvelle tuple------------------\n")
     print(ent)
+    
+    # III. Creation d'un set de 10 elements de type chaine de caracteres
+    print("\n*********************Creation d'un set de 10 elements de type chaine de caracteres***********\n")
+    chaine_set = {"Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre"}
+    
     
