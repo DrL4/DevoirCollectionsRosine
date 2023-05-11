@@ -85,5 +85,7 @@ if __name__ == '__main__':
     # Reconversion de la liste en tuple
     ent = tuple(ent_nouveau_list)
     print(ent)
-    
+    # II.6. Affichage de la nouvelle tuple
+    print("\n-------------------------Affichage de la nouvelle tuple------------------\n")
+    print(ent)
     
