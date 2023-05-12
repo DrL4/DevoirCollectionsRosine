@@ -149,3 +149,6 @@ if __name__ == '__main__':
     print("\n-----------------------------------IV.8. Creation de la copie du dictionnaire-----------------\n")
     copie_chaine_dict = chaine_dict.copy()
     print(copie_chaine_dict)
+    # IV.9. Affichage des nouveaux elements
+    print("\n----------------------------------IV.9. Affichage des nouveaux elements-----------------------------\n")
+    print(copie_chaine_dict)
